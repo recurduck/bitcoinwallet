@@ -1,0 +1,146 @@
+.header {
+    padding: 0px 20px;
+    h1 {
+        color: gold;
+        font-weight: bold;
+        font-size: 26px;
+    }
+    #nav {
+        padding: 25px 0px;
+        width: 40%;
+        a {
+            font-weight: bold;
+            color: whitesmoke;
+            img {
+                filter: invert(89%) sepia(55%) saturate(2%) hue-rotate(353deg) brightness(105%) contrast(92%);
+                width: 35px;
+                transition: .3s;
+            }
+            &.router-link-exact-active {
+                color: #42b983;
+                img {
+                    filter: invert(100%) sepia(72%) saturate(2109%) hue-rotate(323deg) brightness(106%) contrast(102%);
+                }
+            }
+        }
+    }
+}
+
+.home {
+    background-color: #121212bf;
+    padding: 10px;
+    .logged-user {
+        padding: 0px 10px 10px;
+        border-bottom: 2px groove #273e3eab;
+        h1 {
+            font-size: 20px;
+            text-align: left;
+            font-weight: bold;
+        }
+        img {
+            filter: invert(89%) sepia(55%) saturate(2%) hue-rotate(353deg) brightness(105%) contrast(92%);
+            &:hover {
+                filter: invert(100%) sepia(72%) saturate(2109%) hue-rotate(323deg) brightness(106%) contrast(102%);
+                cursor: pointer;
+            }
+        }
+    }
+    h3 {
+        color:#656d74;
+        margin-bottom: 10px;
+        span {
+            background-color: #00ade6;
+            border-radius: 10px;
+            color: whitesmoke;
+            font-size: 12px;
+            padding: 3px 7px; 
+        }
+    }
+    h2 {
+        font-size: 35px;
+        color: whitesmoke;
+        text-align: right;
+    }
+    .user-stats {
+        padding: 10px 10px;
+        p {
+            font-size: 18px;
+            color: whitesmoke;
+            margin: 5px 0px;
+            span {
+                color: gold;
+            }
+        }
+    }
+}
+
+.user-moves {
+    h3{color: whitesmoke;}
+    img {
+        filter: invert(89%) sepia(55%) saturate(2%) hue-rotate(353deg) brightness(105%) contrast(92%);  
+        margin-right: 10px;
+    }
+    > h2 {
+        text-align: left;
+        font-size: 24px;
+        color: brown;
+    }
+}
+
+.signup {
+    color: whitesmoke;
+    img {
+        width: 100px;
+        margin: 10px;
+    }
+    h1 {
+        font-size: 26px;
+    }
+
+    .inp {
+        border-radius: 10px;
+        margin: 30px;
+        width: 100%;
+    }
+    .btn-signup {
+        font-size: 20px;
+        font-weight: bold;
+        padding: 15px 35px;
+        background-color: #ff6565;
+        border-radius: 10px;
+        color: whitesmoke;
+        margin: 10px 20px;
+    }
+}
+
+.move-preview {
+    padding: 10px 15px;
+    border-top: 1px inset rgb(52, 86, 87);
+    background-color: rgba(0, 9, 90, 0.253);
+    h2{
+        text-align: left;
+        margin-bottom: 10px;
+        font-size: 24px;
+    }
+    .move-to {
+        color: rgb(184, 184, 184);
+    }
+    .move-amount {
+        color: yellowgreen;
+        span {
+            color: rgb(84, 92, 84);
+        }
+    }
+    h3 {
+        font-size: 20px;
+        span {
+            background: transparent;
+            font-size: 20px;
+            color: violet;
+        }
+    }
+    p {
+        color: rgb(84, 92, 84);
+        font-size: 18px;  
+    }
+}

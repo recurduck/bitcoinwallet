@@ -1,0 +1,27 @@
+.chart-page {
+    background-color: #121212bf;
+    padding: 10px;
+    h1 {
+        font-size: 20px;
+        text-align: left;
+        border-bottom: 2px groove #273e3eab;
+        padding: 0px 10px 10px;
+        font-weight: bold;
+    }
+    h3 {
+        color:#656d74;
+        margin-bottom: 10px;
+        span {
+            background-color: #00ade6;
+            border-radius: 10px;
+            color: whitesmoke;
+            font-size: 12px;
+            padding: 3px 7px; 
+        }
+    }
+    h2 {
+        font-size: 35px;
+        color: whitesmoke;
+        text-align: right;
+    }
+}

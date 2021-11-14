@@ -1,0 +1,82 @@
+.controler {
+    background-color: rgb(27, 27, 27);
+    padding: 10px 20px;
+    width: 100%;
+    button {
+        background: transparent;
+        color: whitesmoke;
+        font-size: 20px;
+        &:hover {
+            color: goldenrod;
+        }
+    }
+}
+.contact-details {
+    color: whitesmoke;
+    background-color: #0000004d;
+    img {
+        border-radius: 50%;
+        width: 150px;
+        margin: 10px;
+    }
+    h1 {
+        font-size: 30px;
+        color: rgb(223, 100, 100);
+    }
+    h2 {
+        font-size: 20px;
+        padding: 10px 0 0 0;
+    }
+    p {
+        padding: 10px;
+    }
+    .transfer {
+        width: 80%;
+        margin: 35px 15px;
+    }
+    .inp-transfer {
+        border-radius: 10px 0 0 10px;
+        flex-grow: 1;
+    }
+    .btn-transfer {
+        background-color: #ff6565;
+        border-radius: 0 10px 10px 0;
+        color: whitesmoke;
+        flex-grow: 10;
+    }
+    .user-moves {
+        background-color: rgb(27, 27, 27);
+        align-self: flex-start;
+        width: 100%;
+        img {
+        width: 30px;
+        }
+    }
+}
+
+.contact-edit {
+    color: whitesmoke;
+    background-color: #0000004d;
+    img {
+        border-radius: 50%;
+        width: 100px;
+        margin: 10px;
+    }
+    form {
+        width: 100%;
+        padding: 10px;
+        .inp {
+        border-radius: 10px;
+        margin: 5px;
+        width: 90%;
+        }
+        .btn-submit {
+            padding: 15px 35px;
+            background-color: #ff6565;
+            border-radius: 10px;
+            color: whitesmoke;
+            margin: 10px 20px;
+            align-self: flex-end;
+        }   
+    }
+}
